@@ -1,0 +1,130 @@
+body {
+  font-family: "Lora", serif;
+  margin: 0;
+}
+h1 {
+  font-size: 40px;
+}
+.company-name-color {
+  font-family: "Honk", system-ui;
+  font-style: italic;
+  color:blue;
+}
+
+.top-section {
+  display: flex;
+  margin-bottom: 100px;
+  padding-top: 40px;
+
+  background-image: url(images/corner.png);
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+.top-text {
+  font-family: "Protest Riot", sans-serif;
+  width: 50%;
+  padding-left: 4%;
+  padding-right: 8%;
+  text-align: justify;
+}
+.top-text p {
+  font-family: "Lora", serif;
+  width: 80%;
+  padding-right: 8%;
+  text-align: justify;
+}
+
+.top-image img {
+  width: 70%;
+  padding-top: 15%;
+}
+.button {
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  background-image: linear-gradient(orange, yellow);
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+
+.midle-section {
+  display: flex;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  background-image: url(images/side-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+.midle-image {
+  width: 40%;
+  margin-left: 1%;
+  margin-right: 10%;
+  padding: 25px;
+}
+
+.midle-text {
+  font-family: "Lora", serif;
+  width: 50%;
+  padding-left: 4%;
+  padding-right: 8%;
+  text-align: left;
+  
+  
+}
+
+.midle-text h1 {
+  color:blue;
+  padding-left: 5%;
+}
+
+
+.midle-text p {
+  color: black;
+  border: 5px solid red;
+  border-radius: 10px;
+  background-color: yellow;
+  width: 50%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+  padding-left: 4%;
+  padding-right: 8%;
+}
+
+
+.bottom-section {
+  background-image: url(images/alpana-design-border-png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  margin-bottom: 100px;
+  padding-top: 40px;
+}
+
+.address {
+  font-family: "Lora", serif;
+  width: 50%;
+  padding-left: 4%;
+  padding-right: 8%;
+  text-align: left;
+  color: orange;
+  
+}
+.address h1 {
+  color:black;
+}
+
+.comment input {
+  margin: 8px;
+  width: 70%;
+  background-color: beige;
+  height: 25px;
+  
+}
+
+footer p {
+  text-align: center;
+  color: brown;
+}
